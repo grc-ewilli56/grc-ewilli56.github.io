@@ -60,63 +60,49 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/bricks_bg.png)
+  background: url(images/web_background.png)
 		center center fixed no-repeat;
 	background-size: cover;
+	font-family: "Georgia", serif;
 	
 	
 }
 
 .center {
-    width: 800px;
+    width: 80%; /* added this to make div responsive */
+	max-width: 800px;
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
+	border-radius: 30px 150 px;
+ 	background: rgba(255, 165, 0, .10); /*this uses opacity of 75% for the background color*/
 	text-align: center;
-	border: 4px dashed white;
+	
 }
 
    
 #logo {
-    margin-bottom: 16px;
-	border: 3px dashed red;
+    width: 80%;
+	max-width: 800px;
+	margin-bottom: 50px;
+	margin-top: 40px;
 	text-align: center;
-}
-
-h1 {
-	font-family: 'Times New Roman', Times, serif
-	font-size 2em;
-    margin: 0px auto 10px auto;
-    color: #fff;
-}
-
-h2 {
-	font-family: freight-big-pro, serif;
-	font-weight: 300;
-	font-style: normal;
-	font-size: 1.5em;
-    line-height: 1.4;
-    color: #fff;
-    padding: 0px 0px;
-    margin: 0px auto 25px auto;
 }
 
 p {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */		
+	font-family: "Georgia", serif;
 	font-size: 1.2em;
     line-height: 1.6;
-    color: #fff;
+	letter-spacing: 5px;
+    color: #567262;
 }
     
 nav{
-	font-family: garamond;
+	font-family: "Georgia", serif;
 	font-size: 1.2em;
-	width: 400pxi;
+	width: 80%;
 	margin: 0 auto;
-	border: dashed turquoise;
-	border-width: 3px 0;
 	text-align: center;
-	margin-top: 2em;
 	}
 
 nav li{
@@ -129,11 +115,10 @@ nav li{
 		}
 
 a{
-	color:#444;
+	color:#567262;
 	text-decoration: none;
 	font-weight: bold;
 	}
 a:hover{
-	color:black;
-	background:pink;
+	color:#ffa600; 
 	}	
