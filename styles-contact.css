@@ -73,7 +73,7 @@ html, body {
 	max-width: 800px;
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(255, 165, 0, .10); /*this uses opacity of 75% for the background color*/
+ 	background: rgba(255, 165, 0, .20); /*this uses opacity of 75% for the background color*/
 	text-align: center;
 	
 }
