@@ -60,7 +60,7 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/web_background.png)
+  background: url(images/bg_faces.png)
 		center center fixed no-repeat;
 	background-size: cover;
 	font-family: "Georgia", serif;
@@ -73,7 +73,6 @@ html, body {
 	max-width: 800px;
 	padding: 2%;
     margin: 100px auto;
-	border-radius: 30px 150 px;
  	background: rgba(255, 165, 0, .10); /*this uses opacity of 75% for the background color*/
 	text-align: center;
 	
