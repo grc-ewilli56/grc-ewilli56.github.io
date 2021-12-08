@@ -82,8 +82,8 @@ html, body {
 #logo {
     width: 80%;
 	max-width: 800px;
-	margin-bottom: 50px;
-	margin-top: 40px;
+	margin-bottom: 10px;
+	margin-top: 10px;
 	text-align: center;
 }
 
@@ -114,10 +114,10 @@ nav li{
 		}
 
 a{
-	color:#567262;
+	color:#567262; 
 	text-decoration: none;
 	font-weight: bold;
 	}
 a:hover{
-	color:#ffa600; 
+	color:#FFFFFF; 
 	}	
